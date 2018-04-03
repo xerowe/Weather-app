@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+  min-height: 100vh;
+}
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  color: #b3b3b3;
+  background: linear-gradient(rgba(61, 133, 244, 0.8), rgba(61, 133, 244,.8)), url("https://images.unsplash.com/photo-1519429753079-3b0f0a95dea8?ixlib=rb-0.3.5&s=e647c0e060a4dd764848276b4b262230&auto=format&fit=crop&w=1350&q=80") no-repeat center; 
+  background-size: cover;
+  height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card-wrapper {
+  max-width: 960px;
+  margin: 20vh auto;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 6px;
+}
+.card {
+  background: #fff;
+  padding:5vh 0;
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: #8c8c8c;
+}
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.15rem;
+}
+.card h2 #w-loc {
+  font-weight: bold;
+  color: #ffa500;
+  font-size: 1.35rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card .main-info {
+  align-items: center;
+  margin-top: 20px;
+}
+.card .main-info .temp-holder p {
+  font-size: 5.2rem;
+  color: #4c4c4c;
+  letter-spacing: -3px;
+  margin: -1rem 1rem 0 -1.25rem;
+}
+.card .main-info .icon-holder img {
+  width: 168px;
+  height: 168px;
+}
+.card .w-info {
+  margin-top: -10px;
+}
+.card .w-info .col:nth-child(2) {
+  margin: 5px auto;
+}
+.card .w-info img {
+  width: 18px;
+  height: 18px;
+}
+
+.card .next4 .col {
+  margin: 0 1.25rem;
+}
+.card .next4 .col img {
+  width: 64px;
+  height: 64px;
+}
+.card .next4 .col p:first-of-type {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+#w-form {
+  flex-direction: column;
+  padding: 0px 40px 40px 40px;
+}
+
+/* Modal  */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .modal-content {
+  margin: 30vh auto;
+  width: 420px;
+  text-align: center;
+  animation: modalopen .4s;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 25px 35px 0 rgba(0, 0, 0, 0.35);
+  border-radius: .125em;
+}
+.modal .modal-content h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #fff;
+  background: #3d85f4;
+  width: 100%;
+  text-align: left;
+  padding: 20px 40px;
+}
+.modal .modal-content input {
+  font-size: 1rem;
+  font-family: 'Cabin', sans-serif;
+  margin: 3px auto;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  padding: 5px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  width: 100%;
+}
+.modal .modal-content input:focus {
+  outline: none;
+}
+.modal #w-change-btn {
+  text-transform: capitalize;
+  background: #3d85f4;
+  border: none;
+  color: #FFF;
+  font-size: 1.05rem;
+  cursor: pointer;
+  padding: 0.4rem 1.25rem;
+  border-radius: 4px;
+}
+.modal #w-change-btn:hover {
+  background: #1865dc;
+  border: none;
+  transition: 0.3s ease-out;
+}
+@keyframes modalopen {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  } 
+  }
+.modal .closeBtn {
+  font-size: 32px;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+}
+.modal .closeBtn:hover,.modal .closeBtn:focus {
+  color: #ffa500;
+  text-decoration: none;
+  cursor: pointer; }
+
+
+  @media screen and (max-width: 480px) {
+    .w-info {
+      display: flex;
+      align-items: center;
+    }
+    .w-info .col {
+      margin: 0px 20px;
+    }
+  }

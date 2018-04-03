@@ -1,0 +1,943 @@
+// 20180330175539
+// http://api.wunderground.com/api/59faa6060e65e45e/forecast10day/q/BG/Varna.json
+
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast10day": 1
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "4:26 PM EEST",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Friday",
+          "fcttext": "Mostly clear. Lows overnight in the low 40s.",
+          "fcttext_metric": "Mostly clear. Low 5C.",
+          "pop": "10"
+        },
+        {
+          "period": 1,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Friday Night",
+          "fcttext": "Generally clear. Low 41F. Winds SSE at 10 to 20 mph.",
+          "fcttext_metric": "Mostly clear. Low around 5C. Winds SSE at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 2,
+          "icon": "mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "title": "Saturday",
+          "fcttext": "A mix of clouds and sun in the morning followed by cloudy skies during the afternoon. Warmer. High around 60F. Winds S at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy skies during the morning hours will become overcast in the afternoon. Warmer. High around 15C. Winds S at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 3,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Saturday Night",
+          "fcttext": "Partly cloudy. Low 48F. Winds S at 5 to 10 mph.",
+          "fcttext_metric": "A few clouds from time to time. Low 9C. Winds S at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 4,
+          "icon": "rain",
+          "icon_url": "http://icons.wxug.com/i/c/k/rain.gif",
+          "title": "Sunday",
+          "fcttext": "Rain showers in the morning will evolve into a more steady rain in the afternoon. High around 60F. Winds SW at 10 to 20 mph. Chance of rain 100%. Rainfall near a quarter of an inch.",
+          "fcttext_metric": "Showers early, becoming a steady rain later in the day. High around 15C. Winds SW at 15 to 30 km/h. Chance of rain 100%. Rainfall around 6mm.",
+          "pop": "100"
+        },
+        {
+          "period": 5,
+          "icon": "nt_chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+          "title": "Sunday Night",
+          "fcttext": "Rain showers early with mostly cloudy conditions late. Low around 45F. Winds W at 10 to 15 mph. Chance of rain 50%.",
+          "fcttext_metric": "Rain showers early with mostly cloudy conditions late. Low 7C. Winds W at 15 to 25 km/h. Chance of rain 50%.",
+          "pop": "50"
+        },
+        {
+          "period": 6,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Monday",
+          "fcttext": "Intervals of clouds and sunshine. High 59F. Winds WNW at 15 to 25 mph.",
+          "fcttext_metric": "Partly cloudy skies. High around 15C. Winds WNW at 15 to 30 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 7,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Monday Night",
+          "fcttext": "Some clouds early will give way to generally clear conditions overnight. Low 41F. Winds WNW at 5 to 10 mph.",
+          "fcttext_metric": "Some clouds early will give way to generally clear conditions overnight. Low around 5C. Winds WNW at 10 to 15 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 8,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Tuesday",
+          "fcttext": "Sunny. High 56F. Winds SSW at 5 to 10 mph.",
+          "fcttext_metric": "A mainly sunny sky. High 13C. Winds SSW at 10 to 15 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 9,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Tuesday Night",
+          "fcttext": "Clear skies. Low 41F. Winds SE at 5 to 10 mph.",
+          "fcttext_metric": "Clear skies. Low near 5C. Winds SE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 10,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Wednesday",
+          "fcttext": "A mainly sunny sky. High near 55F. Winds SE at 10 to 15 mph.",
+          "fcttext_metric": "A mainly sunny sky. High 13C. Winds SE at 15 to 25 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 11,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Wednesday Night",
+          "fcttext": "A mostly clear sky. Low 42F. Winds ESE at 5 to 10 mph.",
+          "fcttext_metric": "A mostly clear sky. Low 6C. Winds ESE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 12,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Thursday",
+          "fcttext": "Mostly sunny skies. High near 55F. Winds E at 5 to 10 mph.",
+          "fcttext_metric": "Mostly sunny skies. High 13C. Winds E at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 13,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Thursday Night",
+          "fcttext": "A few clouds from time to time. Low 43F. Winds ENE at 5 to 10 mph.",
+          "fcttext_metric": "Partly cloudy. Low 6C. Winds ENE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 14,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Friday",
+          "fcttext": "Partly cloudy. High 57F. Winds ENE at 10 to 15 mph.",
+          "fcttext_metric": "Partly cloudy skies. High 14C. Winds ENE at 15 to 25 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 15,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Friday Night",
+          "fcttext": "Mostly clear skies. Low 44F. Winds NNE at 5 to 10 mph.",
+          "fcttext_metric": "A few clouds from time to time. Low 7C. Winds NNE at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 16,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Saturday",
+          "fcttext": "Mainly sunny. High 58F. Winds NE at 10 to 15 mph.",
+          "fcttext_metric": "Mostly sunny. High 14C. Winds NE at 15 to 25 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 17,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Saturday Night",
+          "fcttext": "Mostly clear skies. Low 44F. Winds NNE at 5 to 10 mph.",
+          "fcttext_metric": "Mostly clear skies. Low 7C. Winds NNE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 18,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Sunday",
+          "fcttext": "Sunny skies. High 58F. Winds NE at 10 to 15 mph.",
+          "fcttext_metric": "Mainly sunny. High 14C. Winds NE at 15 to 25 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 19,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Sunday Night",
+          "fcttext": "A mostly clear sky. Low 44F. Winds NNE at 5 to 10 mph.",
+          "fcttext_metric": "Clear skies. Low 7C. Winds NNE at 10 to 15 km/h.",
+          "pop": "10"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "1522425600",
+            "pretty": "7:00 PM EEST on March 30, 2018",
+            "day": 30,
+            "month": 3,
+            "year": 2018,
+            "yday": 88,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 1,
+          "high": {
+            "fahrenheit": "55",
+            "celsius": "12"
+          },
+          "low": {
+            "fahrenheit": "41",
+            "celsius": "5"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": null,
+            "mm": null
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": null,
+            "cm": null
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 16,
+            "kph": 26,
+            "dir": "ESE",
+            "degrees": 0
+          },
+          "avewind": {
+            "mph": 6,
+            "kph": 9,
+            "dir": "ESE",
+            "degrees": 0
+          },
+          "avehumidity": 84,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522512000",
+            "pretty": "7:00 PM EEST on March 31, 2018",
+            "day": 31,
+            "month": 3,
+            "year": 2018,
+            "yday": 89,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Sat",
+            "weekday": "Saturday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 2,
+          "high": {
+            "fahrenheit": "60",
+            "celsius": "16"
+          },
+          "low": {
+            "fahrenheit": "48",
+            "celsius": "9"
+          },
+          "conditions": "Mostly Cloudy",
+          "icon": "mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "S",
+            "degrees": 178
+          },
+          "avewind": {
+            "mph": 14,
+            "kph": 23,
+            "dir": "S",
+            "degrees": 178
+          },
+          "avehumidity": 72,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522598400",
+            "pretty": "7:00 PM EEST on April 01, 2018",
+            "day": 1,
+            "month": 4,
+            "year": 2018,
+            "yday": 90,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Sun",
+            "weekday": "Sunday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 3,
+          "high": {
+            "fahrenheit": "60",
+            "celsius": "16"
+          },
+          "low": {
+            "fahrenheit": "45",
+            "celsius": "7"
+          },
+          "conditions": "Rain",
+          "icon": "rain",
+          "icon_url": "http://icons.wxug.com/i/c/k/rain.gif",
+          "skyicon": "",
+          "pop": 100,
+          "qpf_allday": {
+            "in": 0.33,
+            "mm": 8
+          },
+          "qpf_day": {
+            "in": 0.30,
+            "mm": 8
+          },
+          "qpf_night": {
+            "in": 0.04,
+            "mm": 1
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "SW",
+            "degrees": 231
+          },
+          "avewind": {
+            "mph": 16,
+            "kph": 26,
+            "dir": "SW",
+            "degrees": 231
+          },
+          "avehumidity": 71,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522684800",
+            "pretty": "7:00 PM EEST on April 02, 2018",
+            "day": 2,
+            "month": 4,
+            "year": 2018,
+            "yday": 91,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Mon",
+            "weekday": "Monday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 4,
+          "high": {
+            "fahrenheit": "59",
+            "celsius": "15"
+          },
+          "low": {
+            "fahrenheit": "41",
+            "celsius": "5"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 25,
+            "kph": 40,
+            "dir": "WNW",
+            "degrees": 287
+          },
+          "avewind": {
+            "mph": 17,
+            "kph": 27,
+            "dir": "WNW",
+            "degrees": 287
+          },
+          "avehumidity": 57,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522771200",
+            "pretty": "7:00 PM EEST on April 03, 2018",
+            "day": 3,
+            "month": 4,
+            "year": 2018,
+            "yday": 92,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Tue",
+            "weekday": "Tuesday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 5,
+          "high": {
+            "fahrenheit": "56",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "41",
+            "celsius": "5"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "SSW",
+            "degrees": 201
+          },
+          "avewind": {
+            "mph": 9,
+            "kph": 14,
+            "dir": "SSW",
+            "degrees": 201
+          },
+          "avehumidity": 61,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522857600",
+            "pretty": "7:00 PM EEST on April 04, 2018",
+            "day": 4,
+            "month": 4,
+            "year": 2018,
+            "yday": 93,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Wed",
+            "weekday": "Wednesday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 6,
+          "high": {
+            "fahrenheit": "55",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "42",
+            "celsius": "6"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SE",
+            "degrees": 140
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SE",
+            "degrees": 140
+          },
+          "avehumidity": 67,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1522944000",
+            "pretty": "7:00 PM EEST on April 05, 2018",
+            "day": 5,
+            "month": 4,
+            "year": 2018,
+            "yday": 94,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Thu",
+            "weekday": "Thursday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 7,
+          "high": {
+            "fahrenheit": "55",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "43",
+            "celsius": "6"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "E",
+            "degrees": 101
+          },
+          "avewind": {
+            "mph": 9,
+            "kph": 14,
+            "dir": "E",
+            "degrees": 101
+          },
+          "avehumidity": 70,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1523030400",
+            "pretty": "7:00 PM EEST on April 06, 2018",
+            "day": 6,
+            "month": 4,
+            "year": 2018,
+            "yday": 95,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 8,
+          "high": {
+            "fahrenheit": "57",
+            "celsius": "14"
+          },
+          "low": {
+            "fahrenheit": "44",
+            "celsius": "7"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "ENE",
+            "degrees": 64
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "ENE",
+            "degrees": 64
+          },
+          "avehumidity": 69,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1523116800",
+            "pretty": "7:00 PM EEST on April 07, 2018",
+            "day": 7,
+            "month": 4,
+            "year": 2018,
+            "yday": 96,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Sat",
+            "weekday": "Saturday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 9,
+          "high": {
+            "fahrenheit": "58",
+            "celsius": "14"
+          },
+          "low": {
+            "fahrenheit": "44",
+            "celsius": "7"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "NE",
+            "degrees": 40
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "NE",
+            "degrees": 40
+          },
+          "avehumidity": 69,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1523203200",
+            "pretty": "7:00 PM EEST on April 08, 2018",
+            "day": 8,
+            "month": 4,
+            "year": 2018,
+            "yday": 97,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "April",
+            "monthname_short": "Apr",
+            "weekday_short": "Sun",
+            "weekday": "Sunday",
+            "ampm": "PM",
+            "tz_short": "EEST",
+            "tz_long": "Europe/Sofia"
+          },
+          "period": 10,
+          "high": {
+            "fahrenheit": "58",
+            "celsius": "14"
+          },
+          "low": {
+            "fahrenheit": "44",
+            "celsius": "7"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "NE",
+            "degrees": 36
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "NE",
+            "degrees": 36
+          },
+          "avehumidity": 69,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}
