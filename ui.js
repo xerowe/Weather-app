@@ -28,7 +28,7 @@ class UI {
   }
 
   paint(weather) {
-    this.wLoc.textContent = localStorage.getItem('city');
+    this.wLoc.textContent = localStorage.getItem('city') || 'Sofia';
     this.wDisc.textContent = weather.txt_forecast.forecastday[0].fcttext_metric;
     this.wIcon.alt = weather.simpleforecast.forecastday[0].icon;
     this.wTemp.textContent = weather.simpleforecast.forecastday[0].high.celsius;
