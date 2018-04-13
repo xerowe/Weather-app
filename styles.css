@@ -53,7 +53,7 @@ ol, ul {
 }
 .card {
   background: #fff;
-  padding:5vh 0;
+  padding:5vh 1vw;
 }
 .card h2 {
   font-size: 1.25rem;
